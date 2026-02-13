@@ -678,3 +678,9 @@
         }, observerOptions);
 
         // Observe all project cards and blog posts
+        document.querySelectorAll('.project-card, .blog-post').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
